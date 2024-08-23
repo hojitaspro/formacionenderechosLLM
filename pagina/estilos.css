@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;}
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-style: italic;
+        
+    }
+
+    h1
+    {
+        font-style: oblique;
+    }
+
+.slider-box{
+    width: 9200px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 920px;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    width: 920px;
+    list-style: none;
+    position: relative;
+}
+
+.slider-box img { 
+    width: 920px;
+}
+@keyframes slide {
+    0% {
+      transform: translateX(0px);
+    }
+    0% {
+        transform: translateX(0px);
+      }
+    3.846% {
+      transform: translateX(-920px);
+    }
+    7.692% {
+      transform: translateX(-1840px);
+    }
+    11.538% {
+      transform: translateX(-2760px);
+    }
+    15.384% {
+      transform: translateX(-3680px);
+    }
+    19.230% {
+      transform: translateX(-4600px);
+    }
+    23.076% {
+      transform: translateX(-5520px);
+    }
+    26.922% {
+      transform: translateX(-6440px);
+    }
+    30.768% {
+      transform: translateX(-7360px);
+    }
+    34.614% {
+      transform: translateX(-8280px);
+    }
+    38.460% {
+      transform: translateX(-9200px);
+    }
+    42.306% {
+      transform: translateX(-10120px);
+    }
+    46.152% {
+      transform: translateX(-11040px);
+    }
+    49.998% {
+      transform: translateX(-11960px);
+    }
+    53.844% {
+      transform: translateX(-12880px);
+    }
+    57.690% {
+      transform: translateX(-13800px);
+    }
+    61.536% {
+      transform: translateX(-14720px);
+    }
+    65.382% {
+      transform: translateX(-15640px);
+    }
+    69.228% {
+      transform: translateX(-16560px);
+    }
+    73.074% {
+      transform: translateX(-17480px);
+    }
+    76.920% {
+      transform: translateX(-18400px);
+    }
+    80.766% {
+      transform: translateX(-19320px);
+    }
+    84.612% {
+      transform: translateX(-20240px);
+    }
+    88.458% {
+      transform: translateX(-21160px);
+    }
+    92.304% {
+      transform: translateX(-22080px);
+    }
+    96.150% {
+      transform: translateX(-23000px);
+    }
+    100% {
+      transform: translateX(-23920px);
+    }
+  }
+    
+    
+
+@media(max-width: 991px){
+    .slider-box{width: 340px;}
+}
